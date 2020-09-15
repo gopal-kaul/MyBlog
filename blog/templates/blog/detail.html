@@ -1,0 +1,7 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<h1 id='post-title'>{{post.title}}</h1>
+<p id='post-date'>On {{post.updated}}</p>
+<hr>
+<p id='post-body'>{{post.body}}</p>
+{% endblock content %}
